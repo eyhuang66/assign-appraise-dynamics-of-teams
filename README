@@ -1,0 +1,4 @@
+Project to model how collect learning within a team allows the team to maximize their overall performance. 
+The team's structure is represented by a weighted graph, where the weights between neighboring team members i and j represent i's evaluation of j. The appraisal weights are updated according to the observed performances of neighboring members, and the workload is being constantly updated according to the new appraisal information.
+
+To run an example case, execute ./main_example.
