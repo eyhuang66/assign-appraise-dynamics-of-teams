@@ -1,4 +1,5 @@
-Project to model how collect learning within a team allows the team to maximize their overall performance. 
-The team's structure is represented by a weighted graph, where the weights between neighboring team members i and j represent i's evaluation of j. The appraisal weights are updated according to the observed performances of neighboring members, and the workload is being constantly updated according to the new appraisal information.
+This code introduced a mathematical model for collective learning within a team. Under certain conditions, the team is capable of maximizing their collective performance.
+
+In this model, the appraisal network represents the network structure of the team, where the weighted edges represent team members' evaluations of one another. Additionally, each team member chooses their own workload in a decentralized and distributed manner, based on the current appraisal network. The appraisal network than co-evolves with the observed individual performances. 
 
 To run an example case, execute ./main_example.
